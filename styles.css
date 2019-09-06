@@ -1,7 +1,55 @@
+@charset "utf-8";
+/*Global Styles*/
 body {
-background: lightblue;
+
 }
-h1 {
-  color: darkblue;
-  align: center;
+img {
+	width: 500px;
+	align-items: center;
+}
+a {color:inherit;
+	background:#3D0778;
+	padding: 6px;
+}
+a:hover { 
+	text-decoration: none;
+	background:none;
+}
+a:link {
+	color:white;
+}
+a:visited {
+	background:#00194E
+}
+a:active {
+	border: 1px solid black;
+}
+a:focus,
+input:focus{
+	outline: 1px solid black;
+}
+/*header and  footer*/
+
+header h1, header h2 {
+	color:#F0F7FB;
+}
+
+h2{
+	color:#B4D1C7;
+		text-align: center;
+}
+section h2 {
+	color:slateblue;
+}
+header, footer {
+	background: #2B2d42;
+color:#DEE4F0;
+}
+/*Work Experience*/
+.work {
+	background: #E1E6E8;
+}
+/*Education*/
+.education{
+	backgound:#8d99af;
 }
