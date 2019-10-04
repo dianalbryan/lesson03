@@ -66,6 +66,14 @@ ul li:hover ul {
 .uppercase {
 	text-transform: uppercase;	
 }
+.btn{
+	text-decoration: none;
+	background: #D500D4;
+	color:white;
+	padding:10px;
+	display:inline-block;
+
+}
 h1,h2 {
 	font-family: 'Caveat', cursive;
 	font-weight:400px;
@@ -89,9 +97,13 @@ h3 {
 	border-radius: 50%;
 	margin: 20px;
 }
+.download{
+	position: absolute;
+	bottom:0;
+	right:0;
 	
 }
-a {color:inherit;
+a {color:white;
 	padding: 6px;
 }
 a:hover { 
